@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(pexels-jessica-lewis-583848.jpg);
+
+   background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input {
+    color: aliceblue;
+    background: transparent;
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    outline: none;
+    border-bottom: 1px solid skyblue;
+    
+}
+
+button {
+    width: 350px;
+    font-size: 20px;
+background-color: #1685ed;
+    color: white;
+    margin: top 30px;
+    border: none;
+    outline: none;
+    height: 40px;
+
+}
+h1{
+margin-bottom: 30px;
+color: white;
+
+}
+::placeholder{
+    color:white ;
+}
